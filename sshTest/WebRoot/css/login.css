@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url("../images/45.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	color: white;
+	font-family:"微软雅黑";
+}
+
+.form {
+	background-color:#010101;
+	top: 200px;
+	left: 40%;
+	width: 20%;
+	height: 360px;
+	position: absolute;
+	filter: alpha(opacity = 30);
+	-moz-opacity: 0.3;
+	opacity: 0.3;
+}
+
+.loginTitle {
+	position: absolute;
+	left:40%;
+	top:220px;
+	font-size: 30px;
+	width:10%;
+	text-align:center;
+	padding-bottom:10px;
+}
+.loginTitle:hover{
+border-bottom:2px solid white;
+}
+.registerTitle {
+	position: absolute;
+	left:50%;
+	top:220px;
+	width:10%;
+	font-size: 30px;
+	text-align:center;
+	padding-bottom:10px;
+}
+.registerTitle:hover{
+border-bottom:2px solid white;
+}
+
+div {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.username {
+	position:absolute;
+	left:42%;
+	top:290px;
+	width: 16%;
+	height: 40px;
+}
+.usernamehint{
+   position:absolute;
+   left:42%;
+   top:400px;
+   width: 16%;
+   height: 40px;
+   color:#ffffff;
+   font-size:10px;
+   font-family:"微软雅黑";
+}
+.Rusernamehint{
+   position:absolute;
+   left:42%;
+   top:330px;
+   width: 16%;
+   height: 40px;
+   color:#ffffff;
+   font-size:10px;
+   font-family:"微软雅黑";
+}
+
+.userpassword {
+	position:absolute;
+	left:42%;
+	top:360px;
+	width: 16%;
+	height: 40px;
+}
+.email{
+	position:absolute;
+	left:42%;
+	top:430px;
+	width: 16%;
+	height: 40px;
+	display:none;
+}
+.submit {
+	position:absolute;
+	left:42%;
+	top:430px;
+	width: 16%;
+	height: 40px;
+	background-color: #0F88EB;
+	text-align: center;
+	vertical-align: middle;
+	border:none;
+	color:white;
+	font-size:20px;
+}
+.submit:hover{
+background-color: #469EE5;
+}
+.login{
+display:block;
+}
+.register{
+display:none;
+}

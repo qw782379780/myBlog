@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+.input {
+	position: absolute;
+	top: 100px;
+	left: 25%;
+	width:50%;
+	height:800px;
+}
+.title{
+	width:80%;
+	height:60px;
+	position:absolute;
+	top:100px;
+	left:10%;
+	font-size:20px;
+}
+.content{
+	position:relative;
+    top:200px;
+    left:10%;
+    width:80%;
+    height:650px;
+    font-size:20px;
+    
+}
+
+a {
+	text-decoration: none;
+}
+
+.body {
+	background-image: url("../images/43.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 100%;
+	background-attachment: fixed;
+	filter: alpha(opacity = 80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	font-size:20px;
+	color:white;
+}
+
+.submit {
+	position: relative;
+	border: none;
+	width: 200px;
+	height: 50px;
+	left:560px;
+	top: 0px;
+	margin-top:20px;
+	color:white;
+	background-color: #0F88EB;
+	font-size:16px;
+}
+
+.submit:hover {
+	background-color: #469EE5;
+}
